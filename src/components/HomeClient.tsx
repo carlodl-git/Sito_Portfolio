@@ -86,8 +86,7 @@ export function HomeClient() {
                 Carlo De Luca
               </h1>
               <p className="text-pretty text-sm font-medium tracking-wide text-white/70 md:text-base">
-                CEMS Master’s Candidate | AI &amp; Automation Specialist |
-                Entrepreneur
+                CEMS Master’s Candidate | Nova SBE &amp; UCD | Bocconi
               </p>
               <p className="text-pretty text-sm leading-relaxed text-white/60 md:text-[0.95rem]">
                 Bilingual (Italian &amp; English) professional focused on
@@ -134,12 +133,16 @@ export function HomeClient() {
               Focus
             </p>
             <p className="text-sm leading-relaxed text-white/80">
-              Designing AI-driven systems, automation workflows, and sustainable
-              technologies that unlock operational efficiency while keeping the
-              human experience at the center.
+              Bilingual (Italian &amp; English) CEMS Master’s candidate and Bocconi
+              graduate with proven entrepreneurial experience as the Founder of an
+              IoT startup. Drove business growth by building direct sales channels
+              and negotiating B2B partnerships with agencies to secure recurring
+              revenue. Specialize in operational efficiency through AI automation
+              and sustainable technology, having successfully implemented robotic
+              systems in golf management.
             </p>
             <div className="flex flex-wrap gap-2 pt-1">
-              {["AI Automation", "Sustainable Tech", "Operational Excellence"].map(
+              {["IoT &amp; Startups", "B2B &amp; Sales", "AI &amp; Sustainability"].map(
                 (tag) => (
                   <span
                     key={tag}
