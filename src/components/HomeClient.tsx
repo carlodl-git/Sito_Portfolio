@@ -88,10 +88,6 @@ export function HomeClient() {
               <p className="text-pretty text-sm font-medium tracking-wide text-white/70 md:text-base">
                 CEMS Master’s Candidate | Nova SBE &amp; UCD | Bocconi
               </p>
-              <p className="text-pretty text-sm leading-relaxed text-white/60 md:text-[0.95rem]">
-                Bilingual (Italian &amp; English) professional focused on
-                operational efficiency through AI and sustainable technology.
-              </p>
             </motion.div>
 
             <motion.div
@@ -142,7 +138,7 @@ export function HomeClient() {
               systems in golf management.
             </p>
             <div className="flex flex-wrap gap-2 pt-1">
-              {["IoT &amp; Startups", "B2B &amp; Sales", "AI &amp; Sustainability"].map(
+              {["IoT & Startups", "B2B & Sales", "AI & Sustainability"].map(
                 (tag) => (
                   <span
                     key={tag}
